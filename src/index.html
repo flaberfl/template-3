@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="home">
+				<div id="tsparticles"></div>
+				<!-- <div class="home__container">
+					<div class="home__content">
+						<h2 class="subtitle">Hi There! <span className="wave" role="img" aria-labelledby="wave">
+							👋🏻
+						</span></h2> 
+					</div>
+					<div class="home__image"></div>
+				</div> -->
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
